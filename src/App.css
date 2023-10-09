@@ -8,7 +8,7 @@ h1 {
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
-  background: linear-gradient(267.81deg, #3C3DBF 1.92%, #2998FF 106.64%) ;
+  background: slategray;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -19,7 +19,7 @@ h2 {
   font-weight: 600;
   font-size: 32px;
   line-height: 48px;
-  color: #454545;
+  color: slategray;
 }
 
 h3 {
@@ -54,14 +54,14 @@ h6 {
   font-weight: 400;
   font-size: 12px;
   line-height: 12px !important;
-  color: #A1A1A1;
+  color:#3C3DBF;
 }
 
 .title-md {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 12px !important;
-  color: #A1A1A1;
+  color: #fffafa;
 }
 
 .card-wraper {
@@ -102,7 +102,7 @@ h6 {
 
 .text-ungu {
   color : #3C3DBF;
-
+  font-size: px;
 }
 
 .button {
@@ -111,12 +111,12 @@ h6 {
   color: #fff;
 }
 
-.btn-ungu {
-  background: #3C3DBF;
+.btn-pemasukkan {
+  background: hsl(154, 52%, 49%);
 }
 
 .btn-pink {
-  background: #FF3666;
+  background: hsl(356, 60%, 58%);
 }
 
 .text-money-in {
@@ -127,4 +127,14 @@ h6 {
 .text-money-out {
   font-weight: 600 !important;
   color: #FF3666;
+}
+
+.card-bg-pemasukan {
+  background-color: hsl(154, 52%, 49%);
+ 
+}
+
+.card-bg-pengeluaran {
+  background-color: hsl(356, 60%, 58%);
+ 
 }
